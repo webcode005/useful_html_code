@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>COD Prepaid Charge</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div>
+<form action="form.php">
+		<!-- <input type="radio" name="payment_method" id="payment_method" value="0"> Prepaid
+		<input type="radio" name="payment_method" id="payment_method" value="1"> COD -->
+
+		<select id="payment_method" name="payment_method" required>
+			<option value="">Please Select Payment Method</option>
+			<option value="0" selected> Prepaid</option>
+			<option value="1"> COD</option>
+		</select>
+		
+		<div id="pay">
+				<label>Total Amount</label>
+				<input type="text" id="total_amount"  name='total_amount'  value="100" readonly>
+
+		</div>
+
+		<div id="gttotal"></div>
+
+<input type="submit" name="">
+
+</form>
+</div>
+
+
+<script type="text/javascript">
+	$("#payment_method").change(function(){
+
+        var pay_method = parseInt($("#payment_method").val());
+
+
+	 //var pay_method = $("input[name='payment_method']:checked").val();
+
+       var totl     = parseInt($("#total_amount").val());
+
+       var shipping_value = totl ;
+          
+          // alert(pay_method);
+          // console.log(pay_method);
+
+          if(pay_method !=0)
+               {
+                    $("#pay").hide();
+
+               		let cod_charge = 50;
+
+               		var totl = totl + cod_charge;
+
+
+                   $("#gttotal").html("<label>Total Amount</label> <input type='text' name='total_amount' value='"+totl+"' readonly>");
+               }
+
+               
+
+               else
+               {
+               		$("#gttotal").html("<label>Total Amount</label> <input type='text' name='total_amount' value='"+totl+"' readonly>");
+               }
+   
+   
+      
+    });  
+
+
+	// function myFunction(p1, p2) {
+	// 		  return p1 + p2;
+	// 		}
+   
+
+
+
+
+</script>
+</body>
+</html>

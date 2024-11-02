@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        How to detect browser or tab closing
+    </title>
+</head>
+
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+
+    <b>Detect browser or tab closing</b>
+
+    <p>
+        The beforeunload function is triggered
+        just before the browser or tab is to be
+        closed or the page is to be reloaded.
+        Modern browsers require some interaction
+        with the page, otherwise the dialog box
+        is not shown.
+    </p>
+
+    <!-- <button onclick="windowclose();">Click Me</button> -->
+
+
+    <button class="bdt-cc-close-btn cc-btn cc-dismiss">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"></path>
+                </svg>
+           </button>
+
+    <script type="text/javascript">
+   
+
+        function windowclose() {
+                    window.close();
+        }
+
+    </script>
+
+
+<!-- <p class="bdt-cc-close-btn">Click on this paragraph.</p> -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".bdt-cc-close-btn").click(function(){
+    windowclose();
+  });
+});
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>

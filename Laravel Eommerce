@@ -1,0 +1,11 @@
+Laravel Eommerce
+1. composer create-project laravel/laravel laravelecommerce
+2. cd laravelecomm
+3. php artisan migrate
+4. php artisan serve
+5. composer require laravel/breeze --dev
+6. php artisan breeze:install 
+7. php artisan migrate
+8. npm install
+9. npm run dev
+10. 

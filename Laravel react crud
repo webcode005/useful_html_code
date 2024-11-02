@@ -1,0 +1,24 @@
+Laravel react crud
+Steps:
+	Frontend
+
+1.  npx create-react-app frontend 
+2.  cd frontend
+3.  npm install bootstrap
+4.  npm install react-router-dom
+5.  npm install axios
+6.  now create pages inside src/pages folder
+7.  npm start
+
+
+
+	Backend
+
+1. composer creact-project laravel/laravel backend
+2. cd backend
+3. update database name in .env file
+4. php artisan make:controller UserController --resource
+5. now go to seeder folder and add 10 fake entry
+6. php artisan migrate:fresh --seed
+7. php artisan migration
+

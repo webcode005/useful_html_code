@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BMI Calcaulator</title>
+</head>
+<body>
+
+	<form>
+		<label>Height in cm</label>
+		<input type="tel" name="height" id="height"> <br><br>
+		<label>Weight in kg</label>
+		<input type="tel" name="weight" id="weight"> <br><br>
+
+		<input type="button" name="calci" value="Calcaulator" onclick="formsubmit()">
+
+	</form>
+
+	<p id="res"></p>
+
+	<script type="text/javascript">
+		function formsubmit()
+		{
+			const height = document.getElementById('height').value;
+			const weight = document.getElementById('weight').value;
+
+
+			const result = weight  / height  / height  * 10000;
+
+			window.alert (result);
+
+
+			document.getElementById("res").innerHTML=result;
+
+
+		}
+	</script>
+
+
+
+</body>
+</html>

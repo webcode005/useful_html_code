@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>unifiiss</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet" />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.as').slick({
+                dots: true,
+                infinite: false,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                pauseOnDotsHover: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                speed: 1000,
+                dots: true,
+                prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+                nextArrow: '<button class="slide-arrow next-arrow"></button>',
+
+                responsive: [
+
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 700,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+
+
+
+            $('.asa').slick({
+                dots: true,
+                infinite: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                pauseOnDotsHover: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                cssEase: 'linear'
+            });
+
+        });
+
+    </script>
+
+
+    <style>
+        .image img {
+            width: 100%;
+        }
+
+        .text {
+            background: blak;
+            padding: 22px 14px;
+            text-align: justify;
+            margin-top: 0px;
+        }
+
+        .text h2 {
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .text p {
+            font-size: 18px;
+
+        }
+
+        .text a {
+            color: red;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .asa img {
+            width: 100%;
+            margin-top: 72px;
+            height: 700px;
+            object-fit: contain;
+        }
+
+        .slider.slider-2 h2 {
+            color: red;
+        }
+
+
+        .ayush {
+            color: green;
+            text-align: center;
+            width: 100%;
+            font-size: 35px;
+            text-shadow: 2px 2px 1px black;
+            margin-top: 41px;
+            margin-bottom: 37px;
+        }
+
+    </style>
+
+    <style>
+        button {
+            margin: 0;
+            padding: 0;
+            background: none;
+            border: none;
+            border-radius: 0;
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .slide-arrow {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+        }
+
+        .prev-arrow {
+            left: -40px;
+            width: 0;
+            height: 0;
+            border-left: 0 solid transparent;
+            border-right: 15px solid #113463;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .next-arrow {
+            right: -40px;
+            width: 0;
+            height: 0;
+            border-right: 0 solid transparent;
+            border-left: 15px solid #113463;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--slider-1-->
+
+    <h2 class="ayush">AYUSH THAKUR</h2>
+
+
+
+
+
+
+    <section id="features" class="blue">
+        <div class="content">
+            <div class="slider slider-1">
+
+                <div class="container">
+                    <div class="row as">
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://media.istockphoto.com/photos/renewable-energy-and-sustainable-development-picture-id1186330948?k=20&m=1186330948&s=612x612&w=0&h=5aNPCcQ8FcZraX44PEhb2mqcHkow2xMITJMHdh28xNg=">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://images.unsplash.com/photo-1610878180933-123728745d22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuYWRhJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-pMc-gq4Zz7lR5vrYc54SprFvaUw_to1ZH4DeSvSMCXlxDdBBA">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEN7VsiAx3kyImPntFdLodJEwby04F_oq-0-LilPydXEVZErse8Q">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy44qtRV8ZfiF_udfF6sg6uZJwMLZtAX77W5-kQlytfubFSiO39U1jQhUsI_Us8e16eLI&usqp=CAU">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5u_PqkmYZ9Oez3t26LiT0BYT9jkZ9rwSdd1HAB1J5ER7PUUf9Sw">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2CmEdpUtYIAn626gv1E7uhs2SQCuF0CvtbDTD-H6UHH0ItK3">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="strat">
+                                <div class="image">
+                                    <img src="https://media.istockphoto.com/photos/sunrise-in-the-park-picture-id921341724?b=1&k=20&m=921341724&s=170667a&w=0&h=C4jExiP7i3R1h8pG2WaxL1bUksPNXZoNNHOzz3Yq-2A=">
+                                </div>
+                                <div class="text">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="slider slider-2">
+
+
+
+
+
+
+
+
+
+
+            <div class="container">
+                <div class="row asa">
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="http://hdwpro.com/wp-content/uploads/2016/03/Fantastic-Full-HD-Wallpaper.jpg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum1</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="http://images2.fanpop.com/images/photos/7800000/Nature-Full-HD-Wallpaper-national-geographic-7822418-1920-1080.jpg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum2</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Best-photography-in-world-images-PIC-WPD0011953.jpg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum 3</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="https://i.ytimg.com/vi/j74EcjyN1WQ/maxresdefault.jpg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum 4</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="https://i.ytimg.com/vi/XqE3MEgL2xM/maxresdefault.jpg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum 5</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="strat">
+                            <div class="image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vlNVhd-MmkhRa01p19Qp8e-1CL44og0FBZcyVLjAWhPoxM0BYg">
+                            </div>
+                            <div class="text">
+                                <h2>Lorem Ipsum 6</h2>
+                                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
